@@ -1,0 +1,4 @@
+name: KillLog
+version: 1.0.0
+author: kojima1021
+main: net.bukkit_plugin.kojima1021.KillLog.Main
