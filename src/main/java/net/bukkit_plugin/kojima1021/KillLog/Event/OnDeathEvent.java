@@ -20,8 +20,7 @@ public class OnDeathEvent implements Listener {
 		 if (e.getEntity().getKiller() != null){
 		    e.getEntity().getPlayer().getServer().getLogger().info("");
 		    String prefix = ChatColor.RED + "[" + ChatColor.WHITE + "PVPLog" + ChatColor.RED + "]" + ChatColor.RESET;
-		    Calendar.getInstance(Locale.JAPAN);
-		    Calendar now = Calendar.getInstance();
+		    Calendar now = Calendar.getInstance(Locale.JAPAN);
 		    int h = now.get(now.HOUR_OF_DAY);//時を取得
 		    int m = now.get(now.MINUTE);     //分を取得
 		    int s = now.get(now.SECOND);      //秒を取得
